@@ -1,0 +1,205 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center; /* Add this line to center the text */
+}
+
+header h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 170px;
+    margin-left: 170px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Services */
+#services {
+    background-color: #222;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* About */
+#about {
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+#contact {
+    background-color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Add new styles for positioning and spacing */
+.home-link {
+    margin-right: auto;
+    margin-left: 40px; /* Add left margin for space */
+    font-weight: bold; /* Add this line to make the text bold */
+}
+
+.services-link {
+    margin: 0 auto; /* Center the element horizontally */
+    font-weight: bold; /* Add this line to make the text bold */
+}
+
+.contact-link {
+    margin-left: auto;
+    margin-right: 40px; /* Add right margin for space */
+    font-weight: bold; /* Add this line to make the text bold */
+}
+
+.home-link a,
+.services-link a,
+.contact-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+.home-link a:hover,
+.services-link a:hover,
+.contact-link a:hover {
+    background-color: #555;
+}
